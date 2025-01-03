@@ -69,6 +69,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -133,7 +134,43 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
+     <br />
+
+     {/* Outside the contact div block, in the middle */}
+     <div className='text-white font-medium text-center my-8'>
+       Made with ❤️ by Sayandeep
+     </div>
+
+     {/* At the end */}
+     <div className='text-center text-white font-medium'>
+       <a
+         href='https://www.linkedin.com/in/sayandeep-biswas-7b6185250/'
+         target='_blank'
+         rel='noopener noreferrer'
+         className='text-gray-300 hover:underline mx-4'
+       >
+         LinkedIn
+       </a>
+       <a
+         href='https://github.com/Itssayandeep'
+         target='_blank'
+         rel='noopener noreferrer'
+         className='text-gray-300 hover:underline mx-4'
+       >
+         GitHub
+       </a>
+       <a
+         href='https://www.instagram.com/its_sayandeep_45/'
+         target='_blank'
+         rel='noopener noreferrer'
+         className='text-gray-300 hover:underline mx-4'
+       >
+         Instagram
+       </a>
+     </div>
+   </>
   );
 };
 
