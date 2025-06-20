@@ -21,6 +21,7 @@ import {
     shopify,
     sonoriq,
     tixie,
+    course,
     // tripguide,
     threejs,
   } from "../assets";
