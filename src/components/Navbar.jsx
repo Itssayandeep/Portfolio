@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resumePdf from "/src/resume/Sayandeep Biswas Resume Updatedd.pdf";
+import resumePdf from "/src/resume/Sayandeep Biswas Resume.pdf";
 import music from "/src/music/music.mp3"; // Import your music file
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
     // Trigger the download
     const link = document.createElement("a");
     link.href = resumePdf;
-    link.download = "Sayandeep Biswas Resume Updatedd"; // Set the desired file name
+    link.download = "Sayandeep Biswas Resume"; // Set the desired file name
     link.click();
   };
 
