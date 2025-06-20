@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 import sonoriq from "./sonoriq.jpg";
 import tixie from "./tixie.jpg";
+import course from "./course.png";
 // import tripguide from "./tripguide.png";
 
 export {
@@ -58,5 +59,6 @@ export {
   tesla,
   sonoriq,
   tixie,
+  course,
   // tripguide,
 };
