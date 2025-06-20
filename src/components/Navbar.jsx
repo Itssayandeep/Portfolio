@@ -31,7 +31,7 @@ const Navbar = () => {
     // Trigger the download
     const link = document.createElement("a");
     link.href = resumePdf;
-    link.download = "Sayandeep Biswas Resume"; // Set the desired file name
+    link.download = "Sayandeep Biswas Resume.pdf"; // Set the desired file name
     link.click();
   };
 
