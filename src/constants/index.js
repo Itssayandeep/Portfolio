@@ -239,6 +239,27 @@ import {
       image: tixie,
       source_code_link: "https://github.com/jhasudarshan/TIXIE_CHATBOT",
     },
+    {
+      name: "CourseGen",
+      description:
+        "Built an AI-driven platform that automates personalized course creation for educators and learners. Enabled faster, scalable e-learning content delivery with global accessibility.",
+      tags: [
+        {
+          name: "Fast API",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gemini AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: course,
+      source_code_link: "https://github.com/jhasudarshan/course-generator",
+    }
     // {
     //   name: "Trip Guide",
     //   description:
